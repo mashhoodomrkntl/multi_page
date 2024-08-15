@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+       
+    </head>
+    <body>
+        <!-- header section starts -->
+        <section id="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logo.png" alt="logo_image" /></a>
+                <div class="nav-links hh" id="navLinks">
+                    <i class="close fa fa-close" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <h1>Our Courses</h1>
+        </section>
+
+
+        <!-- header section ends -->
+<!-- course section starts -->
+
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi?</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermediates</h3>
+            <p>
+                Lorem ipsum dolor sit amet elit. Exercitationem sint voluptatem iure magni voluptates delectus
+                doloribus similique praesentium, expedita accusantium natus accusamus, dicta nesciunt impedit
+                ducimus tempora vero repellat velit.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>
+                Lorem ipsum dolor sit amet elit. Exercitationem sint voluptatem iure magni voluptates delectus
+                doloribus similique praesentium, expedita accusantium natus accusamus, dicta nesciunt impedit
+                ducimus tempora vero repellat velit.
+            </p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduation</h3>
+            <p>
+                Lorem ipsum dolor sit amet elit. Exercitationem sint voluptatem iure magni voluptates delectus
+                doloribus similique praesentium, expedita accusantium natus accusamus, dicta nesciunt impedit
+                ducimus tempora vero repellat velit.
+            </p>
+        </div>
+    </div>
+</section>
+<!-- course section ends -->
+      
+<!-- course page -->
+<section class="facility">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    <div class="row">
+        <div class="facility-col">
+            <img src="images/library.png" alt="image" />
+            <h3>world class library</h3>
+            <p>Lorem ipsum dolor sit amet, itae totam officiis! Non accusantium vero, numquam nemo blanditiis vel minus ipsum doloremque alias unde, officia nostrum quo atque.</p>
+        </div>
+        <div class="facility-col">
+            <img src="images/cafeteria.png" alt="image" />
+            <h3>Tasty adn Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet, itae totam officiis! Non accusantium vero, numquam nemo blanditiis vel minus ipsum doloremque alias unde, officia nostrum quo atque.</p>
+        </div>
+        <div class="facility-col">
+            <img src="images/basketball.png" alt="image" />
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet, itae totam officiis! Non accusantium vero, numquam nemo blanditiis vel minus ipsum doloremque alias unde, officia nostrum quo atque.</p>
+        </div>
+    </div>
+</section>
+
+        <!-- footer section starts -->
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi officiis ipsa voluptatum, natus, sit aliquid quas enim minima <br>facere assumenda placeat sed sint magnam dolorem cupiditate corrupti id voluptates quasi?</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-linkedin"></i>
+
+            </div>
+            <p>Made with <i class="fa fa-heart"></i>  by Mashhood</p>
+         </section>
+        <!-- footer section ends -->
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-900px";
+            }
+        </script>
+
+    </body>
+</html>
